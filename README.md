@@ -22,4 +22,5 @@ MODULE 15 Challenge - R Language and Statistics
 
 ## T-Tests on Suspension Coils
 
-Across all lots - p-value = 0.06028.  Cannot reject null hypothesis.  
+   - T-Tests were performed comparing all manufacturing lots (in total) against the known mean PSI of the data population (1500 psi).  T-tests were also performed against the population mean PSI (1500 psi) for each individual manufacturing lot.
+   - [Across all lots](Images/3_all_lots.png), the t-tests revealed a mean PSI of 1498.78, which was NOT statistically different (p-value = 0.06028) from the population mean PSI of 1500 psi.   Similarly, [Manufacturing Lot 1](Images/3_Lot1.png) (with a mean of 1500 PSI and a p-value of 1) and [Manufacturing Lot 2](Images/3_Lot2.png) (with a mean of 1500.2 PSI and a p-value of 0.6072) were NOT statistically different from the population mean PSI of 1500.  [Manufacturing Lot 3](Images/3_Lot3.png) (with a mean of 1496.14 PSI and a p-value of 0.04168), however, was found to be statistically significantly defferent from the population mean PSI.  
