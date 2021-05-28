@@ -2,7 +2,7 @@
 MODULE 15 Challenge - R Language and Statistics
 
 
-## [Linear Regression to Predict MPG](Images/1_lmSummary)
+## [Linear Regression to Predict MPG](Images/1_lmSummary.png)
 
   - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
       Of the variables tested (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD), only vehicle length (p= 2.60e-12) and ground clearance (p= 5.21e-08) showed a statistically significant correlation with MPG, in this dataset.
