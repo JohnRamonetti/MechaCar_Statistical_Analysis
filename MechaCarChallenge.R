@@ -20,4 +20,15 @@ total_summary <- suspension_data %>% summarize(Mean=mean(PSI), Median=median(PSI
 lot_summary <- suspension_data %>% group_by(Manufacturing_Lot) %>%  summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI)) #create summary table
 
 
+## T-Tests on Suspension Coils
+
+# across all lots
+t.test(suspension_data$PSI,mu=1500) #compare sample versus population means
+# Lot 1
+t.test(subset(suspension_data$PSI, suspension_data$Manufacturing_Lot=="Lot1"),mu=1500) #compare Lot 1 PSI versus population mean
+# Lot 2
+t.test(subset(suspension_data$PSI, suspension_data$Manufacturing_Lot=="Lot2"),mu=1500) #compare Lot 2 PSI versus population mean
+# Lot 3
+t.test(subset(suspension_data$PSI, suspension_data$Manufacturing_Lot=="Lot3"),mu=1500) #compare Lot 3 PSI versus population mean
+
 
