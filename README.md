@@ -15,4 +15,4 @@ MODULE 15 Challenge - R Language and Statistics
       From our linear regression model, the r-squared value is 0.7149, which means that roughly 71% of the variablilty of our dependent variable (MPG) is explained using this linear model.  While this is fairly predictive, our Intercept is also statistically significant (p= 5.08e-08), so 1) the significant features (vehicle length and ground clearance) may need scaling or transforming to help improve the predictive power of the model, and/or 2) there may be other variables that can help explain the variability of MPG that have not been included in our model.
 
 
-## ## Summary Statistics on Suspension
+## Summary Statistics on Suspension Coils
