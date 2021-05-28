@@ -26,4 +26,11 @@ MODULE 15 Challenge - R Language and Statistics
    - [Across all lots](Images/3_all_lots.png), the t-tests revealed a mean PSI of 1498.78, which was NOT statistically different (p-value = 0.06028) from the population mean PSI of 1500 psi.   Similarly, [Manufacturing Lot 1](Images/3_Lot1.png) (with a mean of 1500 PSI and a p-value of 1) and [Manufacturing Lot 2](Images/3_Lot2.png) (with a mean of 1500.2 PSI and a p-value of 0.6072) were NOT statistically different from the population mean PSI of 1500.  [Manufacturing Lot 3](Images/3_Lot3.png) (with a mean of 1496.14 PSI and a p-value of 0.04168), however, was found to be statistically significantly different from the population mean PSI.  
   
   
+## Study Design: MechaCar vs Competition
+
+We would perform a statistical comparison of car brands based on performance, cost and fuel efficiency metrics.  Because MechaCar is being marketed as a cost-effective sports-luxury car, we propose to start by comparing cost to acceleration (0-60mph times).  The null hypothesis (H0) is that there is no correlation between cost and acceleration.  The alternative hypothesis (Ha) is that cost and acceleration do have a correlation.  For the initial statistical test, we'd run a linear regression to visualize any obvious and /or significant correlation between cost and acceleration for all cars on the market this year.  For this test, we'd need to have MSRP and mean 0-60 acceleration data for the cars in our analysis.  To add to this analysis, we'd then calculate acceleration/cost ratios for all cars in the analysis and run a t-test to determine whether MechaCar's acceleration/cost ratio is significantly different from the mean acceleration/cost ratio for all cars in the study.
+
+Beyond this initial analysis, we'd expect to perform some ANOVA testing of other performance metrics against vehicle class, transmission types and cost categories.  ANOVA testing would be appropriate since it's suited to test the means of a single dependent variable across independent categorical variables with multiple groups.
+
+
 
