@@ -22,3 +22,4 @@ MODULE 15 Challenge - R Language and Statistics
 
 ## T-Tests on Suspension Coils
 
+Across all lots - p-value = 0.06028.  Cannot reject null hypothesis.  
